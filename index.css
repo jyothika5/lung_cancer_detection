@@ -4,8 +4,12 @@
 }
 h1{
     padding: 2%;
-    
     text-align: center;
     background-color: #c1f027;
     color: black;
+    
+}
+.img{
+margin-left: 64%;
+margin-top: 3%;
 }
