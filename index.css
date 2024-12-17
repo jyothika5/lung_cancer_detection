@@ -5,6 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
 h1 {
     padding: 2%;
     text-align: center;
@@ -14,56 +20,46 @@ h1 {
 
 .content-container {
     display: flex;
-    justify-content: space-between;
-    padding: 3%;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .text-content {
-    width: 55%;
-    padding: 2%;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.text-content h2 {
-    margin-bottom: 10px;
-    color: #c1f027;
-}
-
-.text-content p, .text-content ul {
-    margin-bottom: 20px;
-    line-height: 1.6;
-    color: #333;
-}
-
-.text-content ul {
-    padding-left: 20px;
-}
-
-.text-content ul li {
-    margin-bottom: 8px;
+    flex: 1;
+    margin: 20px;
 }
 
 .img {
-    margin-right: 5%;
-    margin-top: 3%;
+    flex: 1;
+    margin: 20px;
+    text-align: center; /* Centers the image and button */
 }
 
-.check-button {
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+button.check-button {
+    margin-top: 15px;
+
+   padding: 10px 20px;
+    
     background-color: #c1f027;
     color: black;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
     border-radius: 5px;
-    transition: all 0.3s ease;
+    font-size: 25px;
+    cursor: pointer;
 }
 
-.check-button:hover {
-    background-color: #a7d121;
-    color: white;
+button.check-button:hover {
+    background-color: #a8d123;
 }
-
+H3{
+    color: #333;
+    margin-top: 2%;
+    font-size: xx-large;
+}
