@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    background-color: #c1f027;
+    color: black;
+    padding: 2%;
+    font-size: 2rem;
+}
+
+/* Output Container */
+.output-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 70%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+}
+
+.output-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.result-box {
+    margin: 1.5rem auto;
+    background-color: #f8f8f8;
+    border: 2px solid #c1f027;
+    border-radius: 8px;
+    padding: 1rem;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.malignant-text {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Button Styling */
+.check-button {
+    background-color: #c1f027;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.check-button:hover {
+    background-color: #a5cf20;
+}
